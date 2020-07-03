@@ -1,0 +1,47 @@
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(148,85,180,1) 21%, rgba(150,56,171,1) 37%, rgba(149,52,156,1) 60%, rgba(154,53,133,1) 89%);
+}
+.navbar{
+    height: 75px;
+    background-color:#32676fa6;
+}
+
+h3{
+    color: #ffffff;
+}
+
+a:link, a:visited{
+    color: #ffffff;
+}
+
+a:link:active, a:visited:active {
+    color: #ffffff;
+}
+
+.right {
+    height: 290px;
+    background-color: #32676fa6;
+}
+
+.reg-form{
+    margin-left: 15em;
+    height: 44rem;
+    background-color: #32676fa6;
+}
+
+.card{
+    width: 18rem;
+    background-color: #565579;
+}
+
+.card-img-top{
+    width: 50%;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form{
+    margin-top: -85px;
+  }

@@ -1,0 +1,28 @@
+body{
+    background:white;
+}
+
+.navbar{
+    height: 75px;
+    background-color:#7952b3;
+}
+
+h3{
+    color: #ffffff;
+}
+
+a:link, a:visited{
+    color: #ffffff;
+}
+
+a:link:active, a:visited:active {
+    color: #ffffff;
+}
+
+h5 {
+    padding-top: 15px;
+}
+
+.table{
+    margin-top: 17px;
+}
