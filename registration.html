@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online vote</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light justify-content-center">
+        <ul class="nav">
+            <li class="nav-item">
+                <h3 class="nav-link active">
+                    <a href="index.html" style="text-decoration: none;">Online Voting System</a>
+                </h3>
+            </li>
+        </ul>
+    </nav>
+    <div class="container my-2 justify-content-center">
+        <div class="col-md-7 reg-form">
+            <form id="login-form" class="form" action="" method="post">
+                <h4 class="text-center text-info p-3">Registration</h4>
+                <div class="form-group">
+                    <label for="Name" class="text-info">Name</label><br>
+                    <input type="text" name="name" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="text-info">Card No:</label><br>
+                    <input type="text" name="card" id="card" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="password" class="text-info">Password:</label><br>
+                    <input type="text" name="password" id="password" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label class="text-info">Address</label><br>
+                    <input type="text" name="address" id="address" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label class="text-info">Date of birth</label><br>
+                    <input type="date" name="date" id="date" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label class="text-info">Image</label><br>
+                    <input type="file" name="img" id="img" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="cars" class="text-info">Choose</label>
+                        <select name="Select">
+                            <option >Select</option>
+                            <option value="1">Group</option>
+                            <option value="2">Voter</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit">
+                    <a href="index.html" class="text-info text-right">already registered</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
